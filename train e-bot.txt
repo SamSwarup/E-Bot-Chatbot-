@@ -1,0 +1,81 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Ribot","I'm E-Bot","I'm E-Bot your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college","course name"],
+  "responses": ["Any Technical course, you want to apply in?"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be BCA or BBA course", "how long will it take to complete BCA or BBA course"],
+  "responses": ["offers 3yr course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Don't Worry You can do it online here."]
+  },
+
+  {"tag": "Source",
+  "patterns": ["where I get the e-content"."About Content"."How can I reach there".],
+  "responses": ["No worry learner,we'll help you to reach there"]
+  },
+
+  {"tag": "course1",
+  "patterns": ["c,c language","i want to learn c lang","Core language","first language i should learn".],
+  "responses": ["you can get best content here just click and explore\n https://www.geeksforgeeks.org/c-language-set-1-introduction/"]
+  },
+
+  {"tag": "course2",
+  "patterns": ["c++","c++ language".],
+  "responses": ["Hey learner let's start by clicking \n https://www.geeksforgeeks.org/c-plus-plus/"]
+  },
+
+  {"tag": "course3",
+  "patterns": ["HTML","HTML,CSS".],
+  "responses": ["Hey learner let's start by clicking \n https://www.w3.org/standards/webdesign/htmlcss"]
+  },
+
+  {"tag": "Video",
+  "patterns": ["Video Lecture of c language".],
+  "responses": ["you can learn by clicking this link:https://www.youtube.com/results?search_query=edureka"]
+  },
+
+  {"tag": "notes",
+  "patterns": ["Best site for notes"],
+  "responses": ["link\n https://cstutorialpoint.com/bca-notes/"]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["you can certified yourself just clicking this link:\n https://swayamopenid.b2clogin.com/swayamopenid.onmicrosoft.com/B2C_1_ExamPolicy/oauth2/v2.0/authorize?response_type=code&client_id=a07ebc01-4cc4-46dc-8e8f-ecc87f5956b1&redirect_uri=https%3A%2F%2Fexamform.nptel.ac.in%2Fwso_ok&scope=https%3A%2F%2Fswayamopenid.onmicrosoft.com%2Fapi%2Fuser_impersonation+offline_access+openid&state=54ep5KyES3xKitGZdamyBgkpBi5Mxa&access_type=authorization_code"]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Fees will be according to the Government Broucher"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
